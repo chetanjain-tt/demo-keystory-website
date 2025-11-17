@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Properties - KeyStory Realty</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <img src="assets/images/logo-main.png" alt="KeyStory Realty Logo" style="height: 60px; width: auto;">
+                <div>
+                    <h2>KeyStory Realty</h2>
+                    <span class="tagline">Your Dedham Real Estate Experts</span>
+                </div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="properties.html" class="active">Properties</a></li>
+                <li class="dropdown">
+                    <a href="#">Communities ▼</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="dover.html">Dover</a></li>
+                        <li><a href="wellesley.html">Wellesley</a></li>
+                        <li><a href="needham.html">Needham</a></li>
+                    </ul>
+                </li>
+                <li><a href="case-studies.html">Case Studies</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Header -->
+    <section class="page-header">
+        <h1>Available Properties</h1>
+        <p>Discover Your Perfect Home in Dedham and Surrounding Areas</p>
+    </section>
+
+    <!-- Property Filters -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-bar">
+                <div class="filter-group">
+                    <label>Property Type</label>
+                    <select>
+                        <option>All Types</option>
+                        <option>Single Family</option>
+                        <option>Condo</option>
+                        <option>Multi-Family</option>
+                        <option>Townhouse</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Price Range</label>
+                    <select>
+                        <option>Any Price</option>
+                        <option>$300K - $500K</option>
+                        <option>$500K - $750K</option>
+                        <option>$750K - $1M</option>
+                        <option>$1M+</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Bedrooms</label>
+                    <select>
+                        <option>Any</option>
+                        <option>2+</option>
+                        <option>3+</option>
+                        <option>4+</option>
+                        <option>5+</option>
+                    </select>
+                </div>
+                <div class="filter-group">
+                    <label>Location</label>
+                    <select>
+                        <option>All Dedham</option>
+                        <option>East Dedham</option>
+                        <option>West Dedham</option>
+                        <option>Dedham Square</option>
+                        <option>Oakdale</option>
+                    </select>
+                </div>
+                <button class="btn btn-primary">Search</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Listings -->
+    <section class="listings">
+        <div class="container">
+            <div class="listings-header">
+                <h2>12 Properties Found</h2>
+                <div class="sort-options">
+                    <label>Sort by:</label>
+                    <select>
+                        <option>Newest First</option>
+                        <option>Price (Low to High)</option>
+                        <option>Price (High to Low)</option>
+                        <option>Square Footage</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="property-list">
+                <!-- Property 1 -->
+                <div class="property-listing">
+                    <div class="property-image-large">
+                        <img src="assets/images/colonial-home-photo.png" alt="Colonial Estate" style="width: 100%; height: 100%; object-fit: cover;">
+                        <span class="property-badge">New Listing</span>
+                    </div>
+                    <div class="property-info">
+                        <h3>123 Maple Street, East Dedham</h3>
+                        <p class="price">$825,000</p>
+                        <div class="property-features">
+                            <span>4 Beds</span>
+                            <span>3 Baths</span>
+                            <span>2,800 sq ft</span>
+                            <span>0.5 acre lot</span>
+                        </div>
+                        <p class="description">Stunning colonial home featuring a chef's kitchen, hardwood floors throughout, and a beautifully landscaped yard. Recently renovated with high-end finishes. Walking distance to schools and parks.</p>
+                        <div class="listing-actions">
+                            <a href="#" class="btn btn-primary">Schedule Viewing</a>
+                            <a href="#" class="btn btn-secondary">Virtual Tour</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 2 -->
+                <div class="property-listing">
+                    <div class="property-image-large">
+                        <div class="image-placeholder">Victorian Charm</div>
+                        <span class="property-badge">Open House Sunday</span>
+                    </div>
+                    <div class="property-info">
+                        <h3>456 Washington Avenue, Dedham Square</h3>
+                        <p class="price">$975,000</p>
+                        <div class="property-features">
+                            <span>5 Beds</span>
+                            <span>4 Baths</span>
+                            <span>3,200 sq ft</span>
+                            <span>0.75 acre lot</span>
+                        </div>
+                        <p class="description">Historic Victorian home meticulously restored with modern amenities. Original architectural details preserved. Features include a grand staircase, multiple fireplaces, and a carriage house.</p>
+                        <div class="listing-actions">
+                            <a href="#" class="btn btn-primary">Schedule Viewing</a>
+                            <a href="#" class="btn btn-secondary">Virtual Tour</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 3 -->
+                <div class="property-listing">
+                    <div class="property-image-large">
+                        <div class="image-placeholder">Modern Ranch</div>
+                        <span class="property-badge">Price Reduced</span>
+                    </div>
+                    <div class="property-info">
+                        <h3>789 High Street, West Dedham</h3>
+                        <p class="price">$650,000</p>
+                        <div class="property-features">
+                            <span>3 Beds</span>
+                            <span>2 Baths</span>
+                            <span>2,100 sq ft</span>
+                            <span>0.4 acre lot</span>
+                        </div>
+                        <p class="description">Completely renovated ranch-style home with open floor plan. New kitchen with granite counters, stainless appliances. Master suite with walk-in closet. Attached 2-car garage.</p>
+                        <div class="listing-actions">
+                            <a href="#" class="btn btn-primary">Schedule Viewing</a>
+                            <a href="#" class="btn btn-secondary">Virtual Tour</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 4 -->
+                <div class="property-listing">
+                    <div class="property-image-large">
+                        <img src="assets/images/luxury-condo-photo.png" alt="Luxury Condo" style="width: 100%; height: 100%; object-fit: cover;">
+                        <span class="property-badge">Move-In Ready</span>
+                    </div>
+                    <div class="property-info">
+                        <h3>100 Legacy Place #502, Dedham</h3>
+                        <p class="price">$525,000</p>
+                        <div class="property-features">
+                            <span>2 Beds</span>
+                            <span>2 Baths</span>
+                            <span>1,450 sq ft</span>
+                            <span>Parking Included</span>
+                        </div>
+                        <p class="description">Luxury condo in premier Legacy Place. Top floor unit with cathedral ceilings, private balcony. Building amenities include gym, pool, concierge. Walk to shops and restaurants.</p>
+                        <div class="listing-actions">
+                            <a href="#" class="btn btn-primary">Schedule Viewing</a>
+                            <a href="#" class="btn btn-secondary">Virtual Tour</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 5 -->
+                <div class="property-listing">
+                    <div class="property-image-large">
+                        <div class="image-placeholder">Family Home</div>
+                        <span class="property-badge">Under Contract</span>
+                    </div>
+                    <div class="property-info">
+                        <h3>321 School Street, Oakdale</h3>
+                        <p class="price">$725,000</p>
+                        <div class="property-features">
+                            <span>4 Beds</span>
+                            <span>2.5 Baths</span>
+                            <span>2,400 sq ft</span>
+                            <span>0.3 acre lot</span>
+                        </div>
+                        <p class="description">Perfect family home in desirable Oakdale neighborhood. Updated kitchen, finished basement, large deck. Quiet cul-de-sac location. Top-rated schools nearby.</p>
+                        <div class="listing-actions">
+                            <a href="#" class="btn btn-primary">View Similar Properties</a>
+                            <a href="#" class="btn btn-secondary">Join Waitlist</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Property 6 -->
+                <div class="property-listing">
+                    <div class="property-image-large">
+                        <div class="image-placeholder">Investment Opportunity</div>
+                        <span class="property-badge">Multi-Family</span>
+                    </div>
+                    <div class="property-info">
+                        <h3>567 River Road, Dedham</h3>
+                        <p class="price">$895,000</p>
+                        <div class="property-features">
+                            <span>6 Total Units</span>
+                            <span>3 Buildings</span>
+                            <span>4,800 sq ft total</span>
+                            <span>0.6 acre lot</span>
+                        </div>
+                        <p class="description">Excellent investment property. Three 2-unit buildings, all currently rented. Strong rental history, well-maintained. Great cash flow potential. Near public transportation.</p>
+                        <div class="listing-actions">
+                            <a href="#" class="btn btn-primary">Request Financials</a>
+                            <a href="#" class="btn btn-secondary">Schedule Tour</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Pagination -->
+            <div class="pagination">
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">Next →</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Property Alert -->
+    <section class="property-alert">
+        <div class="container">
+            <h2>Can't Find What You're Looking For?</h2>
+            <p>Sign up for property alerts and be the first to know when new listings match your criteria</p>
+            <form class="alert-form">
+                <input type="email" placeholder="Your email address">
+                <button type="submit" class="btn btn-primary">Get Property Alerts</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>KeyStory Realty</h4>
+                    <p>Your trusted partner in Dedham real estate since 2010</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="properties.html">Current Listings</a></li>
+                        <li><a href="case-studies.html">Success Stories</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p>📍 450 Washington St, Dedham, MA 02026</p>
+                    <p>📧 info@keystoryrealty.com</p>
+                    <p>📞 (781) 555-0123</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 KeyStory Realty. All rights reserved. | Licensed in Massachusetts</p>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

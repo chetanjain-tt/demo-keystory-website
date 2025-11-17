@@ -1,0 +1,24 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(export AWS_ACCESS_KEY_ID=\"ASIA26BLNPJVRNP5EREJ\")",
+      "Bash(export AWS_SECRET_ACCESS_KEY=\"SXqMBW+zaIfZmIe9jWX83Kq6bvXWkQRxeL6HVZQt\")",
+      "Bash(export AWS_SESSION_TOKEN=\"IQoJb3JpZ2luX2VjEAsaCXVzLWVhc3QtMSJHMEUCIAhUi7RYQdFtGMpFXw4cZ1CtnH+RVCdOLMBXeuK01P0cAiEA7eU4i1mY20f8HpwbNDPPR864ggTSFq8GF9N3bxSs09YqrQMIlP//////////ARAAGgw3NTE3MTAzMzc2NDMiDHwRqS3xjywXo9EOWSqBA4NRQrv2zX4nNwANI3CfUxglYOwbr+/eYT56jfHccKmx95yBwNKBUFk61Qkc4KRaljhn9woNqtw5MwTMmtlkc/XwJyQra2m7t8H6PlUKOZGM0O28x/LpnNgL/JCC4BgXsFbT+HgwHnKb1fbrbfKcYUTjWN4itkvxD+RMrgH2H0wcrBGsvDcrCdRA+cG8VFXY94mWczpHy5a4KExozlkBwuXfKB6PZdeQSFdCQ+EjnFxCkPx7jKHoJYVqOAvgv2AekMF7ptIv2b87alr+NQRz+WDnTIJJy9y2gcLM22hk+UKubkQTc+RvfYp6LYWFaVassIOpcb8S7Sb3XV8h29imfpYdisQnDz1e1vs5/MmMaiEviUQnVPPzheGyzwAISHdPgJH7OXjvC0QiFTo1SbNKcrfIStdoTiDTFDGakwOYf/qIykMQ5MB0Ub2OeK0cO3tTzdBmATXva/v35/ezIrFq7qZZyYLFaN+tDFLUj5YsVcGlzQcm5mpmn+rJ2LRtqfhfcEYwgbTbxgY6pgH2rBp8u1gsQNwuHbWItENDTnZXyhJ3mZmIJI6XtQUzNEje5UxlIsu5xRTDQ2kjvvmCj7hiH9vFMYmIQfMDFPa0NrnwiH46hIseCofO3fIBjsnSTJ9x/dkz9SycUxKTPw59m/mdab2d7zRY4vHszVr+e/F2CriUMIwHYIbUNMGFFZChl/SIeW0THMDMesxdYqFV2VlzAPHhCOnFknP/O06zxhuwiKtG\")",
+      "Bash(AWS_ACCESS_KEY_ID=\"ASIA26BLNPJVRNP5EREJ\" AWS_SECRET_ACCESS_KEY=\"SXqMBW+zaIfZmIe9jWX83Kq6bvXWkQRxeL6HVZQt\" AWS_SESSION_TOKEN=\"IQoJb3JpZ2luX2VjEAsaCXVzLWVhc3QtMSJHMEUCIAhUi7RYQdFtGMpFXw4cZ1CtnH+RVCdOLMBXeuK01P0cAiEA7eU4i1mY20f8HpwbNDPPR864ggTSFq8GF9N3bxSs09YqrQMIlP//////////ARAAGgw3NTE3MTAzMzc2NDMiDHwRqS3xjywXo9EOWSqBA4NRQrv2zX4nNwANI3CfUxglYOwbr+/eYT56jfHccKmx95yBwNKBUFk61Qkc4KRaljhn9woNqtw5MwTMmtlkc/XwJyQra2m7t8H6PlUKOZGM0O28x/LpnNgL/JCC4BgXsFbT+HgwHnKb1fbrbfKcYUTjWN4itkvxD+RMrgH2H0wcrBGsvDcrCdRA+cG8VFXY94mWczpHy5a4KExozlkBwuXfKB6PZdeQSFdCQ+EjnFxCkPx7jKHoJYVqOAvgv2AekMF7ptIv2b87alr+NQRz+WDnTIJJy9y2gcLM22hk+UKubkQTc+RvfYp6LYWFaVassIOpcb8S7Sb3XV8h29imfpYdisQnDz1e1vs5/MmMaiEviUQnVPPzheGyzwAISHdPgJH7OXjvC0QiFTo1SbNKcrfIStdoTiDTFDGakwOYf/qIykMQ5MB0Ub2OeK0cO3tTzdBmATXva/v35/ezIrFq7qZZyYLFaN+tDFLUj5YsVcGlzQcm5mpmn+rJ2LRtqfhfcEYwgbTbxgY6pgH2rBp8u1gsQNwuHbWItENDTnZXyhJ3mZmIJI6XtQUzNEje5UxlIsu5xRTDQ2kjvvmCj7hiH9vFMYmIQfMDFPa0NrnwiH46hIseCofO3fIBjsnSTJ9x/dkz9SycUxKTPw59m/mdab2d7zRY4vHszVr+e/F2CriUMIwHYIbUNMGFFZChl/SIeW0THMDMesxdYqFV2VlzAPHhCOnFknP/O06zxhuwiKtG\" aws ec2 describe-instances --instance-ids i-031dfd468e6116de1 --region us-east-1 --query 'Reservations[0].Instances[0].[InstanceId,State.Name,PublicIpAddress,PrivateIpAddress,PublicDnsName]' --output table)",
+      "Bash(ssh:*)",
+      "Bash(./keystorywsdeploy.sh:*)",
+      "Bash(export AWS_ACCESS_KEY_ID=\"ASIAVURX2ATD3X5K2FCY\")",
+      "Bash(export AWS_SECRET_ACCESS_KEY=\"rIPuo4qSCYu5gw+cZBuLV2mToy6Y4axN93zigppO\")",
+      "Bash(export AWS_SESSION_TOKEN=\"IQoJb3JpZ2luX2VjEJH//////////wEaCXVzLWVhc3QtMSJHMEUCIQDm6aOzyOyYMNjA/XARI0am4EzkjdaLFapOl1VmdN/wIAIgZaVEmRIjNyFoU57ZTVKsldg60Sp9OSBJZpRM5a/XEMIqpQMIOhAAGgwzODc3Mzc4NDY5ODMiDPlESBbS5vskobw5myqCAyPILKB1XgD1GV0IFo6cfax91Fd/vBwY7Ws9cierbc95whxanH2L1mCMSujy4pccg5h1zyWQeJkFgnl/55Ka5WpZjhVbMi7qi6ukIGm9MGDSjzWTIU1fjXZDS+Px+06xOKxDa72LkBQyIzdpYqcbsjg2r6f2ZjNvuRCkRkFzPrkPxNRwj1guQmGW6eG2lJy8utax++CpGYf1i5dpeGxdoWIFcMDiC8jDpXJvTpGFzcIlFQcrFwepUzLV2emGYiv271McwiTCbGI0xe8dQngB926buXY3JTHa4vwaEuNYgKj4sXQJkVTJzCos2cxGjm9dCxxxr0iIvLAaInOoTHc7bA1sD4bG4cUHxEb5IBZfyUrgo+VF0a01j0B4z7E+ssSvPy1uS/vY+uHpEBrvHcjDGuTAbKJ8zCx5QrRhBlkj/RbFtsiLmkAE1uSxuYR08EWnv51ZU8LIZyFjM+ZyIkA1HwT9/LcyStfx6JN5mAsTDO7IqkD3VY4N8zaOHSCbI4e1aLYkMMuTsccGOqYB43eVahP9VOSt78YHYJPJ8JddGPEjlYzZD5W2YYR0EVBh/VrPEE8RtByghJn9OFxIZTBHMeB+OMGSxGI2gM90aj9KhnMZNAKmEhHRka+Us/QesEefcgLY2VU6Hxr8yWmiZMBawiCdYXZifZDpz8e+mGItGS1JbtrRyqBb+8AZxNG2FfayDkAvPboQ0tFPYwVQs2oYzpSBnPGaEMrcVpn9iaqSUgQeEA==\")",
+      "Bash(aws route53 list-hosted-zones:*)",
+      "Bash(aws route53 list-resource-record-sets:*)",
+      "Bash(aws route53domains get-domain-detail:*)",
+      "Bash(whois:*)",
+      "WebSearch",
+      "Bash(vuegen:*)",
+      "Bash(scp:*)"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
